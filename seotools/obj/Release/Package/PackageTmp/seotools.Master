@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="seotools.master.cs" Inherits="seotools.seotools" %>
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head runat="server">
+  <meta charset="utf-8" />
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+  <title><asp:ContentPlaceHolder ID="Title" runat="server"></asp:ContentPlaceHolder> | Jeremy's SEO Tools</title>
+  <link rel="stylesheet" href="stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="stylesheets/seotools.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+  <script src="javascripts/modernizr.foundation.js"></script>
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+ </head>
+<body>
+     <div class="fixed contain-to-grid">
+            <nav class="top-bar">
+                      <ul>
+                        <li class="name"><h1><a href="http://seotools.ironfoundry.me">Home</a></h1></li>
+                        <li class="toggle-topbar"><a href="#"></a></li>
+                      </ul>
+                      <section>
+                        <ul class="left">
+                          <li><a href="/blog-ping/">Blog Pinger</a></li>
+                        </ul>
+
+                        <ul class="right">
+                          <li><a href="#">Report a Broken Tool</a></li>
+                        </ul>
+                      </section>
+            </nav>
+    </div>
+    <div class="wrapper">
+
+        <div class="row">
+        <div class="twelve columns">
+               <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+            <br />
+            <br />
+        </div>
+
+            <div class="twelve columns">
+                <div class="row">
+                    <p>This site uses <a href="http://foundation.zurb.com/">Foundation 3</a> for layout. Check it out, it's awesome.</p>
+                    <p>The development environment for this tool is hosted on <a href="http://www.ironfoundry.org/">Iron Foundry</a> also very awesome. Give it a try!</p>
+         </div>            
+        </div>
+      </div> 
+    </div>
+</body>
+</html>

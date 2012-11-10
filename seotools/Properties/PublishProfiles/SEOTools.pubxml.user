@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/seotools.dll">
+      <publishTime>11/09/2012 01:24:27</publishTime>
+    </File>
+    <File Include="blog-ping/Default.aspx">
+      <publishTime>11/09/2012 01:30:17</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>11/08/2012 23:18:17</publishTime>
+    </File>
+    <File Include="demo.html">
+      <publishTime>11/08/2012 14:49:24</publishTime>
+    </File>
+    <File Include="images/blog-ping.jpg">
+      <publishTime>11/09/2012 00:57:40</publishTime>
+    </File>
+    <File Include="images/foundation/orbit/bullets.jpg">
+      <publishTime>11/08/2012 14:48:38</publishTime>
+    </File>
+    <File Include="images/foundation/orbit/left-arrow-small.png">
+      <publishTime>11/08/2012 14:48:38</publishTime>
+    </File>
+    <File Include="images/foundation/orbit/left-arrow.png">
+      <publishTime>11/08/2012 14:48:38</publishTime>
+    </File>
+    <File Include="images/foundation/orbit/loading.gif">
+      <publishTime>11/08/2012 14:48:38</publishTime>
+    </File>
+    <File Include="images/foundation/orbit/mask-black.png">
+      <publishTime>11/08/2012 14:48:38</publishTime>
+    </File>
+    <File Include="images/foundation/orbit/pause-black.png">
+      <publishTime>11/08/2012 14:48:38</publishTime>
+    </File>
+    <File Include="images/foundation/orbit/right-arrow-small.png">
+      <publishTime>11/08/2012 14:48:38</publishTime>
+    </File>
+    <File Include="images/foundation/orbit/right-arrow.png">
+      <publishTime>11/08/2012 14:48:38</publishTime>
+    </File>
+    <File Include="images/foundation/orbit/rotator-black.png">
+      <publishTime>11/08/2012 14:48:38</publishTime>
+    </File>
+    <File Include="images/foundation/orbit/timer-black.png">
+      <publishTime>11/08/2012 14:48:38</publishTime>
+    </File>
+    <File Include="javascripts/app.js">
+      <publishTime>11/08/2012 14:48:12</publishTime>
+    </File>
+    <File Include="javascripts/foundation.min.js">
+      <publishTime>11/08/2012 14:48:12</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.accordion.js">
+      <publishTime>11/08/2012 14:48:12</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.alerts.js">
+      <publishTime>11/08/2012 14:48:12</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.buttons.js">
+      <publishTime>11/08/2012 14:48:12</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.clearing.js">
+      <publishTime>11/08/2012 14:48:12</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.forms.js">
+      <publishTime>11/08/2012 14:48:12</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.joyride.js">
+      <publishTime>11/08/2012 14:48:12</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.magellan.js">
+      <publishTime>11/08/2012 14:48:12</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.mediaQueryToggle.js">
+      <publishTime>11/08/2012 14:48:12</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.navigation.js">
+      <publishTime>11/08/2012 14:48:12</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.orbit.js">
+      <publishTime>11/08/2012 14:48:12</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.reveal.js">
+      <publishTime>11/08/2012 14:48:12</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.tabs.js">
+      <publishTime>11/08/2012 14:48:12</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.tooltips.js">
+      <publishTime>11/08/2012 14:48:12</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.topbar.js">
+      <publishTime>11/08/2012 14:48:12</publishTime>
+    </File>
+    <File Include="javascripts/jquery.js">
+      <publishTime>11/08/2012 14:48:12</publishTime>
+    </File>
+    <File Include="javascripts/jquery.placeholder.js">
+      <publishTime>11/08/2012 14:48:12</publishTime>
+    </File>
+    <File Include="javascripts/modernizr.foundation.js">
+      <publishTime>11/08/2012 14:48:12</publishTime>
+    </File>
+    <File Include="pinglist.txt">
+      <publishTime>11/08/2012 22:34:40</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.intellisense.js">
+      <publishTime>11/08/2012 11:42:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.js">
+      <publishTime>11/08/2012 11:42:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.min.js">
+      <publishTime>11/08/2012 11:42:54</publishTime>
+    </File>
+    <File Include="seotools.Master">
+      <publishTime>11/08/2012 21:26:28</publishTime>
+    </File>
+    <File Include="stylesheets/app.css">
+      <publishTime>11/08/2012 14:48:49</publishTime>
+    </File>
+    <File Include="stylesheets/foundation.css">
+      <publishTime>11/08/2012 14:48:49</publishTime>
+    </File>
+    <File Include="stylesheets/foundation.min.css">
+      <publishTime>11/08/2012 14:48:49</publishTime>
+    </File>
+    <File Include="stylesheets/seotools.css">
+      <publishTime>11/08/2012 21:23:33</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/09/2012 01:30:34</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
