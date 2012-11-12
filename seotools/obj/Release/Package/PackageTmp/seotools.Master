@@ -49,11 +49,25 @@
 
             <div class="twelve columns">
                 <div class="row">
+                    <p>This project was created by <a href="http://www.jeremymorgan.com">Jeremy Morgan</a> and is available on <a href="http://seotools.codeplex.com">CodePlex</a> under GPL</p>
                     <p>This site uses <a href="http://foundation.zurb.com/">Foundation 3</a> for layout. Check it out, it's awesome.</p>
                     <p>The development environment for this tool is hosted on <a href="http://www.ironfoundry.org/">Iron Foundry</a> also very awesome. Give it a try!</p>
          </div>            
         </div>
       </div> 
     </div>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36243509-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+</script>
 </body>
 </html>

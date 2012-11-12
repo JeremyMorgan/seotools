@@ -13,23 +13,12 @@
             <h2>Blog Ping Utility</h2>
             <p>Use this utility to ping RPC Update services to let them know you've updated your blog.</p>
             <p>You only need to use the base URL. Please don't abuse this.</p>
+            <asp:Label ID="LabelMessage" runat="server" Text="" ></asp:Label>
             <p>
                 <label>Your Website Name</label>
-                <asp:TextBox ID="WebsiteName" runat="server" placeholder="Name of your Website"></asp:TextBox>
+                <asp:TextBox ID="WebsiteName" runat="server"></asp:TextBox>
                 <label>Your URL:</label>
-                <asp:TextBox ID="WebsiteUrl" runat="server" placeholder="http://www.yoursite.com"></asp:TextBox>
-                 &nbsp;<asp:TextBox ID="WebsitePingUrl" runat="server" rows="10" TextMode="multiline" Visible="False">http://www.blogsearch.google.com/ping/RPC2
-http://ping.blogs.yandex.ru/RPC2
-http://google.com/ping/RPC2
-http://www.blogsearch.google.ae/ping/RPC2
-http://www.blogsearch.google.at/ping/RPC2
-http://www.blogsearch.google.be/ping/RPC2
-http://www.blogsearch.google.bg/ping/RPC2
-http://www.blogsearch.google.ca/ping/RPC2
-http://www.blogsearch.google.ch/ping/RPC2
-http://www.blogsearch.google.cl/ping/RPC2
-http://www.blogsearch.google.us/ping/RPC2
-</asp:TextBox>                
+                <asp:TextBox ID="WebsiteUrl" runat="server"></asp:TextBox>           
             </p>
             <ul class="button-group radius">
                 <asp:Button ID="Button1" runat="server" Text="Submit" class="button radius"/>

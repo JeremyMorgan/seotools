@@ -49,6 +49,7 @@
 
             <div class="twelve columns">
                 <div class="row">
+                    <p>This project was created by <a href="http://www.jeremymorgan.com">Jeremy Morgan</a> and is available on <a href="http://seotools.codeplex.com">CodePlex</a> under GPL</p>
                     <p>This site uses <a href="http://foundation.zurb.com/">Foundation 3</a> for layout. Check it out, it's awesome.</p>
                     <p>The development environment for this tool is hosted on <a href="http://www.ironfoundry.org/">Iron Foundry</a> also very awesome. Give it a try!</p>
          </div>            

@@ -22,6 +22,15 @@ namespace seotools.blog_ping {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
+        /// LabelMessage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelMessage;
+        
+        /// <summary>
         /// WebsiteName control.
         /// </summary>
         /// <remarks>
@@ -38,15 +47,6 @@ namespace seotools.blog_ping {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox WebsiteUrl;
-        
-        /// <summary>
-        /// WebsitePingUrl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox WebsitePingUrl;
         
         /// <summary>
         /// Button1 control.

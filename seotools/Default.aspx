@@ -7,4 +7,11 @@
     <p>This is a set of tools I'm developing for SEOs and Webmasters. I plan on adding quite a few tools to this site, right now the Blog pinger is the only one.</p>
     <p>Not only will these tools be free to use, but I'm going to include JavaScript so you can add them to your site. I am also going to make the code open source available on GitHub and Codeplex.</p>
     <p>Stay tuned! This is only a development area so don't bookmark this page yet. </p>
+    <br />
+    
+    <br />
+    <br />
+    <br />
+    <br />
+
 </asp:Content>
