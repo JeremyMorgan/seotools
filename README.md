@@ -1,10 +1,11 @@
 seotools
 ========
 
-*Project Description*
+#Project Description#
+
 This is a website containing some commonly used SEO tools. I have only added a blog ping utility at this time but there is more to come. 
 
-*Jeremy's SEO Tools*
+#Jeremy's SEO Tools#
 
 This is a collection of SEO tools for use on an ASP.Net website. I only have one tool for now, but plan to add more. 
 
