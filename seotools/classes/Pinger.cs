@@ -6,11 +6,10 @@ using System.IO;
 using System.Xml;
 using System.Text;
 
-namespace Seotools.Classes
+namespace Seotools.classes
 {
     public class Pinger
     {
-
         //The URL of the blog
         private string _BlogUrl = String.Empty;
         public string BlogUrl
@@ -46,7 +45,7 @@ namespace Seotools.Classes
         string returnlist;
 
         // in case someone hits the button too many times ;)
-        private bool pingerSubmitted = false;
+        //private bool pingerSubmitted = false;
 
         public Pinger()
         {
@@ -212,10 +211,8 @@ namespace Seotools.Classes
             siteList.Add("http://blogsearch.google.ro/ping/RPC2");
             siteList.Add("http://blogsearch.google.co.uk/ping/RPC2");
             siteList.Add("http://blogsearch.google.com/ping/RPC2");
-
         }
-        
-
+         
         public string Send()
         {
             foreach (string url in siteList)
@@ -265,7 +262,7 @@ namespace Seotools.Classes
             {
                 HttpWebResponse webrespPing = (HttpWebResponse)webreqPing.GetResponse();
                 StreamReader streamPingResponse = new StreamReader(webrespPing.GetResponseStream());
-            
+             
                 // Store the result in a string
                 string strResult = streamPingResponse.ReadToEnd();
 
@@ -274,16 +271,13 @@ namespace Seotools.Classes
                 webrespPing.Close();
 
                 return strResult;
-
             }
             catch (Exception ex)
             {
                 // do nothing for now
                 return "FAILED";
             }
-
             // Return the response (as a string)
-            
         }
     }
 }

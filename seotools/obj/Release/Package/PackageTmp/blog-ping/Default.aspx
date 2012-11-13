@@ -1,6 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/seotools.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="seotools.blog_ping.Default" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/seotools.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Seotools.blog_ping.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-
+    <meta name="description" content="Blog Ping Utility is a free service to let services such as Google Blog Search know that you've updated your blog.">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="Title" runat="server">Blog Ping Utility</asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">

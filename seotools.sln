@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "seotools", "seotools\seotools.csproj", "{02ECB578-E894-49BE-AC96-C336D3EACB56}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seotools", "seotools\Seotools.csproj", "{02ECB578-E894-49BE-AC96-C336D3EACB56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

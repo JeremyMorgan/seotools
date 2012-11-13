@@ -2,3 +2,6 @@ C:\Users\jmorg2x\documents\visual studio 2012\Projects\seotools\seotools\bin\seo
 C:\Users\jmorg2x\documents\visual studio 2012\Projects\seotools\seotools\bin\seotools.pdb
 C:\Users\jmorg2x\documents\visual studio 2012\Projects\seotools\seotools\obj\Release\seotools.dll
 C:\Users\jmorg2x\documents\visual studio 2012\Projects\seotools\seotools\obj\Release\seotools.pdb
+C:\Users\jmorg2x\Documents\Visual Studio 2012\Projects\seotools\seotools\bin\Microsoft.CompilerServices.AsyncTargetingPack.Net4.dll
+C:\Users\jmorg2x\Documents\Visual Studio 2012\Projects\seotools\seotools\bin\Microsoft.CompilerServices.AsyncTargetingPack.Net4.xml
+C:\Users\jmorg2x\Documents\Visual Studio 2012\Projects\seotools\seotools\obj\Release\seotools.csprojResolveAssemblyReference.cache

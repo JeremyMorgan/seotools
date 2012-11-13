@@ -6,12 +6,10 @@
 //     the code is regenerated. 
 // </auto-generated>
 //------------------------------------------------------------------------------
-
-namespace seotools.blog_ping {
-    
-    
-    public partial class Default {
-        
+namespace Seotools.blog_ping
+{
+    public partial class Default
+    {
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -20,7 +18,7 @@ namespace seotools.blog_ping {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+         
         /// <summary>
         /// LabelMessage control.
         /// </summary>
@@ -29,7 +27,7 @@ namespace seotools.blog_ping {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LabelMessage;
-        
+         
         /// <summary>
         /// WebsiteName control.
         /// </summary>
@@ -38,7 +36,7 @@ namespace seotools.blog_ping {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox WebsiteName;
-        
+         
         /// <summary>
         /// WebsiteUrl control.
         /// </summary>
@@ -47,7 +45,7 @@ namespace seotools.blog_ping {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox WebsiteUrl;
-        
+         
         /// <summary>
         /// Button1 control.
         /// </summary>
@@ -56,7 +54,7 @@ namespace seotools.blog_ping {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
-        
+         
         /// <summary>
         /// ResultPanel control.
         /// </summary>
@@ -65,7 +63,7 @@ namespace seotools.blog_ping {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Panel ResultPanel;
-        
+         
         /// <summary>
         /// LabelResults control.
         /// </summary>
